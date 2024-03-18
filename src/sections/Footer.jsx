@@ -3,7 +3,7 @@ import { footerLinks, socials } from "../constants";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="container">
         <div className="grid-4">
           <div>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

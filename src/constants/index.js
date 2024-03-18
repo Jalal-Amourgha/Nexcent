@@ -19,7 +19,7 @@ import { blog1, blog2, blog3 } from "../assets/images";
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#features", label: "Features" },
-  { href: "#community", label: "Community" },
+  { href: "#stats", label: "Stats" },
   { href: "#blog", label: "Blog" },
   { href: "#pricing", label: "Pricing" },
 ];

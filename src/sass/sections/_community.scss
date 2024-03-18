@@ -8,8 +8,11 @@
     margin-bottom: 40px;
   }
   .community-box {
-    padding: 40px ;
-   
+    padding: 40px;
+    cursor: pointer;
+    @media (max-width: 450px) {
+      padding: 15px;
+    }
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     .community-box-img {
       height: 50px;

@@ -2,7 +2,7 @@ import { community } from "../constants";
 
 const Community = () => {
   return (
-    <section className="community mb">
+    <section className="community mb" id="features">
       <div className="container">
         <h1 className="community-title">
           Manage your entire community

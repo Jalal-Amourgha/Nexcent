@@ -22,6 +22,15 @@
     margin-right: 80px;
     width: 300px;
   }
+  @media (max-width:600px) {
+    flex-direction: column;
+    img{
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+    max-width: 100%;
+    }
+  }
 }
 
 

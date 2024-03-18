@@ -2,7 +2,7 @@ import { blogs } from "../constants";
 
 const Marketing = () => {
   return (
-    <section className="marketing mb">
+    <section className="marketing mb" id="blog">
       <div className="container">
         <h1>Caring is the new marketing</h1>
         <p>

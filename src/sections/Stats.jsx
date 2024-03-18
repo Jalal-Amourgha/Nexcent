@@ -2,7 +2,7 @@ import { stats } from "../constants";
 
 const Stats = () => {
   return (
-    <section className="stats mb">
+    <section className="stats mb" id="stats">
       <div className="container">
         <div className="grid-2">
           <div>

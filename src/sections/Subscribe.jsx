@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 const Subscribe = () => {
   return (
-    <section className="subscribe">
+    <section className="subscribe" id="pricing">
       <div className="container">
         <h1>Subscribe</h1>
         <p>Subscribe to our newsletter to stay updates every moment</p>
