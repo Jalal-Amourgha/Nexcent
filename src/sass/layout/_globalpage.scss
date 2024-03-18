@@ -1,0 +1,14 @@
+* {
+  @include prefixer(box-sizing, border-box, webkit mox);
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.mb {
+  margin-bottom: 100px;
+}

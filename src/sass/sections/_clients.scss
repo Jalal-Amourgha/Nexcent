@@ -1,0 +1,14 @@
+.clients {
+  text-align: center;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  .clients-logos {
+    display: flex;
+    justify-content: space-between;
+  }
+}

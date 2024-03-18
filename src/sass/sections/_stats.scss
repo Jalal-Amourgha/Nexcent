@@ -1,0 +1,25 @@
+.stats {
+  background: $bg-white;
+  padding: 80px 0px;
+  .stat-title {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 28px;
+    span {
+      color: $main-color;
+    }
+  }
+  p {
+    color: #18191F !important;
+  }
+  .stat-box {
+    display: flex;
+    .stat-icon-box {
+      margin-right: 15px;
+    }
+    p {
+      color: $paragraph-color !important;
+    }
+  }
+}

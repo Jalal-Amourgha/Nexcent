@@ -1,0 +1,42 @@
+.marketing {
+  text-align: center;
+  position: relative;
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  p {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .blog-box {
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+    .blog-stat {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: $bg-white;
+      padding:20px;
+      border-radius: 15px;
+      width: 80%;
+      h2 {
+        color: $paragraph-color;
+        margin-bottom: 15px;
+      }
+      h3 {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+
+
+}
